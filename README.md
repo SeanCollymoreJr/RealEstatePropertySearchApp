@@ -1,3 +1,3 @@
 This is a video demonstration of the application
 
-![Uploading MobileAppREALESTATE-ezgif.com-video-to-gif-converter.gif…]()
+![MobileAppREALESTATE](https://github.com/SeanCollymoreJr/RealEstatePropertySearchApp/assets/174896134/495d6c96-de80-4dc2-86b0-5378ba1a6d36)
