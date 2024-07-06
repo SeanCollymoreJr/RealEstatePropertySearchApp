@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/state_drop_down_menu_shell"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:hint="select a state"
+        android:layout_width="238dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/stateButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="64dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="293dp">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/state_drop_down_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/stateButton"
+        android:layout_width="238dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="239dp"
+        android:text="@string/submit"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <TextView
+        android:id="@+id/stateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stateButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="253dp"
+        android:text="Select State"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+
+</RelativeLayout>
