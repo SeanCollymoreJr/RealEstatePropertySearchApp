@@ -74,7 +74,7 @@ public class RealEstateAPI{
                 .url("https://api.realestateapi.com/v2/PropertySearch")
                 .post(body)
                 .addHeader("accept", "application/json")
-                .addHeader("x-api-key", "CONNIEBUTLER-cf81-79cc-86a0-5b778a9fca9f")
+                .addHeader("x-api-key", "xxxxxxxxxxxx")
                 .addHeader("x-user-id", "UniqueUserIdentifier")
                 .addHeader("content-type", "application/json")
                 .build();
